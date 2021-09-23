@@ -9,7 +9,7 @@ def generate_random_points(num_points):
     ]
 
 
-def generate_plot(points, hull_polygon, out_file_name):
+def plot(points, hull_polygon, out_file_name):
     plt.figure()
     plt.gca().set_aspect("equal")
 
@@ -88,4 +88,4 @@ if __name__ == "__main__":
     num_points = 20
     points = generate_random_points(num_points)
     hull = convex_hull(points)
-    generate_plot(points, hull, "jarvis-march.png")
+    plot(points, hull, "jarvis-march.png")
