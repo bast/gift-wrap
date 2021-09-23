@@ -1,4 +1,4 @@
-# gift-wrap
+# gift-wrap :gift:
 
 Gift wrapping algorithm: https://en.wikipedia.org/wiki/Gift_wrapping_algorithm
 
